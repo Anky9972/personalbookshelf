@@ -1,6 +1,6 @@
 # Steps to run app on a local machine
 
-Clone the repository: [git clone https://github.com/Anky9972/personalbookshelf]
+Clone the repository: git clone https://github.com/Anky9972/personalbookshelf
 
 ## Available Scripts
 
@@ -16,4 +16,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
-## Project Live link : [https://personalbookshelf.vercel.app/]
+## Project Live link : https://personalbookshelf.vercel.app/
