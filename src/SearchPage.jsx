@@ -133,13 +133,17 @@ const SearchPage = () => {
           results.map((book) => (
             <div
               key={book.key}
-              className="p-4 border border-gray-300 rounded shadow"
+              className="p-4 border rounded-xl shadow flex flex-col justify-center items-center"
             >
               <h2 className="text-xl font-semibold">{book.title}</h2>
-              <p className="text-gray-700">{book.author_name?.join(", ")}</p>
+              <p className="text-gray-700 text-center">{book.author_name?.join(", ")}</p>
+              <div>
+                <p>Publish Year: {book.first_publish_year}</p>
+                <p>Editon Count: {book.edition_count}</p>
+              </div>
               <button
                 onClick={() => addToBookshelf(book)}
-                className="mt-2 px-4 py-2 bg-blue-500 text-white rounded"
+                className="mt-5 px-4 py-2 bg-blue-500 text-white rounded"
               >
                 Add to Bookshelf
               </button>
